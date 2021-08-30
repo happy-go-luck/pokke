@@ -1,0 +1,242 @@
+/* @media screen and (min-width: 600px) and (max-width: 1000px) {
+
+  h5 {
+    font-size: 2.7em;
+  }
+  header .h-bottoms .h-contents p {
+    font-size: 2.2em;
+  }
+  header .h-bottoms .h-contents h2 {
+    font-size: 4em;
+  }
+  main .menu .menu-contents p {
+    font-size: 2.2em;
+  }
+  main .menu .menu-contents span {
+    font-size: 2.7em;
+  }
+  main .menu .menu-contents .ditail {
+    font-size: 1.5em;
+  }
+  main .contact .c-call p {
+    font-size: 2.2em;
+  }
+  main .contact .c-call h2 {
+    font-size: 3em;
+  }
+  main .contact .c-info p {
+    font-size: 2.2em;
+  }
+  main .contact .c-name h2 {
+    font-size: 2.5em;
+  }
+  main .contact .c-name h5 {
+    font-size: 2.2em;
+  }
+  main .questions h2 {
+    font-size: 2em;
+  }
+  main .questions h5 {
+    font-size: 1.5em;
+  }
+  main .questions p {
+    font-size: 1.3em;
+  }
+  main .shop h2 {
+    font-size: 3.2em;
+  }
+  main .shop .container h2 {
+    font-size: 2.2em;
+  }
+  main .shop .container p {
+    font-size: 1.5em;
+  }
+  main .section {
+    font-size: 1.5em;
+    text-shadow: 5px  5px 5px black, -2px  2px 1px black, 2px -2px 1px black, -2px -2px 1px black, 2px  0px 1px black, 0px  2px 1px black, -2px  0px 1px black, 0px -2px 1px black;
+  }
+} */
+
+@media screen and (max-width:350px) {
+
+
+  .container {
+    width: 95%;
+  }
+  
+}
+
+@media screen and (min-width: 870px) {
+  .container {
+    width: 70%;
+  }
+  h5 {
+    margin: 80px 0 0 0;
+    font-size: 2.2em;
+  }
+  header {
+    padding: 0;
+  }
+  header .h-back {
+    margin: 0 auto;
+    -webkit-transform: scale(70%);
+            transform: scale(70%);
+    padding: 64.9% 0 0 0;
+  }
+  header .h-bottoms .h-contents p {
+    font-size: 1.5em;
+  }
+  header .h-bottoms .h-contents p span {
+    display: inline;
+  }
+  header .h-bottoms .h-contents h2 {
+    font-size: 3.2em;
+  }
+  header .h-bottoms .h-contents .hide {
+    display: none;
+  }
+  main .menu h5 {
+    font-size: 2em;
+  }
+  main .menu .flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+  }
+  main .menu .flex img {
+    width: 50%;
+  }
+  main .menu .flex .menu-contents p {
+    font-size: 1.5em;
+  }
+  main .menu .flex .menu-contents p span {
+    font-size: 2.2em;
+  }
+  main .menu .flex .menu-contents .ditail {
+    font-size: 1em;
+  }
+  main .contact {
+    margin: 60px 0;
+    padding: 30px 0;
+  }
+  main .contact iframe {
+    height: 400px;
+  }
+  main .contact .c-call p {
+    font-size: 1.5em;
+  }
+  main .contact .c-call h2 {
+    font-size: 3.2em;
+  }
+  main .contact .c-info {
+    padding: 20px;
+    border: 3px solid white;
+  }
+  main .contact .c-info p {
+    font-size: 1.5em;
+  }
+  main .contact .c-name h2 {
+    font-size: 2.7em;
+  }
+  main .contact .c-name h5 {
+    font-size: 1.5em;
+  }
+  main .news {
+    margin: 150px 0 0 0;
+  }
+  main .news h2 {
+    font-size: 3.2em;
+  }
+  main .news p {
+    font-size: 1.5em;
+    margin: 10px 0 0 0;
+  }
+  main .questions {
+    margin: 100px 0 0 0;
+  }
+  main .questions h2 {
+    font-size: 2.6em;
+    border-bottom: 2px dotted rgb(223, 86, 86);
+  }
+  main .questions h5 {
+    margin: 30px 0 0 0;
+    font-size: 2em;
+  }
+  main .questions p {
+    margin: 20px 0 0 0;
+    font-size: 1.5em;
+  }
+  main .shop {
+    margin-top: 100px;
+    padding: 30px;
+  }
+  main .shop h2 {
+    font-size: 2.3em;
+  }
+  main .shop .container h2 {
+    font-size: 2.2em;
+  }
+  main .shop .container p {
+    font-size: 1.5em;
+  }
+  main .shop .container img {
+    width: 60%;
+  }
+  main .section {
+    width: 100%;
+    margin: 60px auto 0 auto;
+  }
+  main .section .img1 {
+    width: 100%;
+    height: 600px;
+  }
+  
+  .kuse {
+    width: 10%;
+    height: auto;
+  }
+
+  footer {
+    margin: 100px 0 0 0;
+    padding: 30px 0;
+  }
+  footer .f-contents .top .f-name h3 {
+    font-size: 1.5em;
+  }
+  footer .f-contents .top .f-name h3 span {
+    font-size: 2.3em;
+  }
+  footer .f-contents .top .f-name p {
+    font-size: 1.5em;
+  }
+  footer .f-contents .f-call {
+    border: 4px solid white;
+  }
+  footer .f-contents .f-call p {
+    font-size: 1.5em;
+  }
+  footer .f-contents .f-call h3 {
+    font-size: 2.7em;
+  }
+  footer .bottom p {
+    font-size: 1.5em;
+  }
+  footer .bottom .notion {
+    font-size: 2.5em;
+  }
+  footer .f-map iframe {
+    height: 400px;
+  }
+  
+}
+/*# sourceMappingURL=responsible.css.map */
